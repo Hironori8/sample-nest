@@ -10,6 +10,7 @@ export class CatsService {
   }
 
   findAll(): Cat[] {
+    console.log("sample cat")
     return this.cats;
   }
 }
